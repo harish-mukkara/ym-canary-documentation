@@ -17,9 +17,9 @@ Inside Yellow Messenger’s Bot Marketplace, there are 350+ bots with specializa
 
 ## Features
 
-These pre-trained and pre-built bots are end-to-end vertical-specific solutions (e.g. HR Management, Insurance, Banking, Telecom, etc.). Here are the key features that enterprises need to look for to have successful Vertical Bot deployments :
+These pre-trained and pre-built bots are end-to-end vertical-specific solutions (e.g. E-Commerce, B2B Commerce, Subscription, Appointment Management). Here are the key features that enterprises need to look for to have successful Vertical Bot deployments :
 
-1. **Pre-built workflows**: It’s processed and workflows are built for a specific domain or use-case ( e.g. HR Management, customer support for insurance, etc. )
+1. **Pre-built workflows**: It’s processed and workflows are built for a specific domain or use-case ( e.g. E-Commerce, B2B Commerce, Subscription, Appointment Management )
 2. **Domain-specific training**: Its NLP/ML models are well-trained to understand contexts and lingo specific to the domain.
 3. **Customizability**: The platform offering the conversational app should be designed in such a manner that it can be quickly customized to an enterprise’s needs.
 4. **Integrations**: Enterprise-ready with out-of-the-box integrations specific to the domain, such as SAP ERP, Salesforce CRM, Office 365, etc.

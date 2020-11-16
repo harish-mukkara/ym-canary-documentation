@@ -18,7 +18,7 @@ Returns the number if any number is predicted from `app.data.message`
 
 ## Function
 
-```
+```javascript
 app.global.predictNumber = (returnDefault = undefined) => {
   let number = app._.get(app, "prediction.numbers[0].value", returnDefault);
   if (!isNaN(number)) {
@@ -36,7 +36,7 @@ app.global.predictNumber = (returnDefault = undefined) => {
 
 **Usage** : Below is a example of how to pass params and get the returned valuen from the function
 
-```
+```javascript
 let predictNumber = await app.global.predictNumber(app.data.message);
 ```
 

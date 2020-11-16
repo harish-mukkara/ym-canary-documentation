@@ -103,202 +103,197 @@ This is where the functions are declared and from where the queries are called a
 
 **1. `getAll()`** : `Fetched all the users from the db`
 
-```
+```javascript
 let users = await app.User.getAll();
 
 users = [
   {
-    "user_id": "12345",
-    "name": "Nitin",
-    "email": "nitin@yellowmessenger.com",
-    "mobile": "9487813680",
-    "otp": "authenticated",
-    "pincode": "authenticated",
-    "city": "Vizag",
-    "region": "CAP",
-    "country": "India",
-    "country_code": "91",
-    "offers": [],
-    "address": [
+    user_id: "12345",
+    name: "Nitin",
+    email: "nitin@yellowmessenger.com",
+    mobile: "9487813680",
+    otp: "authenticated",
+    pincode: "authenticated",
+    city: "Vizag",
+    region: "CAP",
+    country: "India",
+    country_code: "91",
+    offers: [],
+    address: [
       {
-        "pincode": "530013",
-        "region": "CAP",
-        "city": "Vizag",
-        "building": "1, road vizag",
-        "lat_long": "17.7415669,83.3121281"
-      }
+        pincode: "530013",
+        region: "CAP",
+        city: "Vizag",
+        building: "1, road vizag",
+        lat_long: "17.7415669,83.3121281",
+      },
     ],
-    "lat_long": "17.7415669,83.3121281",
-    "optin": [],
-    "locale": "en",
-    "user_type": "Normal",
-    "user_status": "Active",
-    "channels_interacted": [
-      "yellowmessenger",
-      "whatsapp"
-    ],
-    "store_id": "X007",
-    "store": "Maharani Peta Daily, MAHARANI PETA- DAILY KRISHNA NAGAR,VISAKHAPATNAM",
-    "last_interacted": 0,
-    "building": "1, road vizag  ",
-    "recent_orders": [],
-    "open_cart": [],
+    lat_long: "17.7415669,83.3121281",
+    optin: [],
+    locale: "en",
+    user_type: "Normal",
+    user_status: "Active",
+    channels_interacted: ["yellowmessenger", "whatsapp"],
+    store_id: "X007",
+    store:
+      "Maharani Peta Daily, MAHARANI PETA- DAILY KRISHNA NAGAR,VISAKHAPATNAM",
+    last_interacted: 0,
+    building: "1, road vizag  ",
+    recent_orders: [],
+    open_cart: [],
   },
   {
-    "user_id": "45678",
-    "name": "Tony",
-    "email": "tony@yellowmessenger.com",
-    "mobile": "8610222522",
-    "otp": "authenticated",
-    "pincode": "123456",
-    "city": "Vizag",
-    "region": "CAP",
-    "country": "India",
-    "country_code": "91",
-    "offers": [],
-    "address": [
+    user_id: "45678",
+    name: "Tony",
+    email: "tony@yellowmessenger.com",
+    mobile: "8610222522",
+    otp: "authenticated",
+    pincode: "123456",
+    city: "Vizag",
+    region: "CAP",
+    country: "India",
+    country_code: "91",
+    offers: [],
+    address: [
       {
-        "pincode": "123455",
-        "region": "CAP",
-        "city": "Vizag",
-        "building": "1, road vizag",
-        "lat_long": "17.7415669,83.3121281"
-      }
+        pincode: "123455",
+        region: "CAP",
+        city: "Vizag",
+        building: "1, road vizag",
+        lat_long: "17.7415669,83.3121281",
+      },
     ],
-    "lat_long": "17.7415669,83.3121281",
-    "optin": [],
-    "locale": "en",
-    "user_type": "Normal",
-    "user_status": "Active",
-    "channels_interacted": [
-      "yellowmessenger",
-      "whatsapp"
-    ],
-    "store_id": "X007",
-    "store": "Maharani Peta Daily, MAHARANI PETA- DAILY KRISHNA NAGAR,VISAKHAPATNAM",
-    "last_interacted": 0,
-    "building": "1, road vizag  ",
-    "recent_orders": [],
-    "open_cart": [],
-  }
-]
+    lat_long: "17.7415669,83.3121281",
+    optin: [],
+    locale: "en",
+    user_type: "Normal",
+    user_status: "Active",
+    channels_interacted: ["yellowmessenger", "whatsapp"],
+    store_id: "X007",
+    store:
+      "Maharani Peta Daily, MAHARANI PETA- DAILY KRISHNA NAGAR,VISAKHAPATNAM",
+    last_interacted: 0,
+    building: "1, road vizag  ",
+    recent_orders: [],
+    open_cart: [],
+  },
+];
 ```
 
 **2. `get(primaryKey)`** : `Fetched particular user from the db with the with that primary key`
 
-```
+```javascript
 let user = await app.User.get(`9487813680`);
 
 user = {
-  "user_id": "12345",
-  "name": "Nitin",
-  "email": "nitin@yellowmessenger.com",
-  "mobile": "9487813680",
-  "otp": "authenticated",
-  "pincode": "authenticated",
-  "city": "Vizag",
-  "region": "CAP",
-  "country": "India",
-  "country_code": "91",
-  "offers": [],
-  "address": [
+  user_id: "12345",
+  name: "Nitin",
+  email: "nitin@yellowmessenger.com",
+  mobile: "9487813680",
+  otp: "authenticated",
+  pincode: "authenticated",
+  city: "Vizag",
+  region: "CAP",
+  country: "India",
+  country_code: "91",
+  offers: [],
+  address: [
     {
-      "pincode": "530013",
-      "region": "CAP",
-      "city": "Vizag",
-      "building": "1, road vizag",
-      "lat_long": "17.7415669,83.3121281"
-    }
+      pincode: "530013",
+      region: "CAP",
+      city: "Vizag",
+      building: "1, road vizag",
+      lat_long: "17.7415669,83.3121281",
+    },
   ],
-  "lat_long": "17.7415669,83.3121281",
-  "optin": [],
-  "locale": "en",
-  "user_type": "Normal",
-  "user_status": "Active",
-  "channels_interacted": [
-    "yellowmessenger",
-    "whatsapp"
-  ],
-  "store_id": "X007",
-  "store": "Maharani Peta Daily, MAHARANI PETA- DAILY KRISHNA NAGAR,VISAKHAPATNAM",
-  "last_interacted": 0,
-  "building": "1, road vizag  ",
-  "recent_orders": [],
-  "open_cart": [],
-}
+  lat_long: "17.7415669,83.3121281",
+  optin: [],
+  locale: "en",
+  user_type: "Normal",
+  user_status: "Active",
+  channels_interacted: ["yellowmessenger", "whatsapp"],
+  store_id: "X007",
+  store:
+    "Maharani Peta Daily, MAHARANI PETA- DAILY KRISHNA NAGAR,VISAKHAPATNAM",
+  last_interacted: 0,
+  building: "1, road vizag  ",
+  recent_orders: [],
+  open_cart: [],
+};
 ```
 
 **3. `getUserData(array of columns, primaryKey)`** : `Fetches only thoose particular columns which are sent as parameters from the db`
 
-```
-let user = await app.User.getUserData(["name", "email", "pincode"], "9487813680");
+```javascript
+let user = await app.User.getUserData(
+  ["name", "email", "pincode"],
+  "9487813680"
+);
 
 user = {
-  "name": "Nitin",
-  "email": "nitin@yellowmessenger.com",
-  "mobile": "9487813680",
-  "pincode": "authenticated",
-}
+  name: "Nitin",
+  email: "nitin@yellowmessenger.com",
+  mobile: "9487813680",
+  pincode: "authenticated",
+};
 ```
 
 **4. `addUser(data)`** : `Add the user into the database`
 
-```
+```javascript
 let addUser = await app.User.addUser(`complete object of the user data`);
 
 addUser = {
-  "_id": "5123dsadqweca234234",
-  "user_id": "12345",
-  "name": "Nitin",
-  "email": "nitin@yellowmessenger.com",
-  "mobile": "9487813680",
-  "otp": "authenticated",
-  "pincode": "authenticated",
-  "city": "Vizag",
-  "region": "CAP",
-  "country": "India",
-  "country_code": "91",
-  "offers": [],
-  "address": [
+  _id: "5123dsadqweca234234",
+  user_id: "12345",
+  name: "Nitin",
+  email: "nitin@yellowmessenger.com",
+  mobile: "9487813680",
+  otp: "authenticated",
+  pincode: "authenticated",
+  city: "Vizag",
+  region: "CAP",
+  country: "India",
+  country_code: "91",
+  offers: [],
+  address: [
     {
-      "pincode": "530013",
-      "region": "CAP",
-      "city": "Vizag",
-      "building": "1, road vizag",
-      "lat_long": "17.7415669,83.3121281"
-    }
+      pincode: "530013",
+      region: "CAP",
+      city: "Vizag",
+      building: "1, road vizag",
+      lat_long: "17.7415669,83.3121281",
+    },
   ],
-  "lat_long": "17.7415669,83.3121281",
-  "optin": [],
-  "locale": "en",
-  "user_type": "Normal",
-  "user_status": "Active",
-  "channels_interacted": [
-    "yellowmessenger",
-    "whatsapp"
-  ],
-  "store_id": "X007",
-  "store": "Maharani Peta Daily, MAHARANI PETA- DAILY KRISHNA NAGAR,VISAKHAPATNAM",
-  "last_interacted": 0,
-  "building": "1, road vizag  ",
-  "recent_orders": [],
-  "open_cart": [],
-}
+  lat_long: "17.7415669,83.3121281",
+  optin: [],
+  locale: "en",
+  user_type: "Normal",
+  user_status: "Active",
+  channels_interacted: ["yellowmessenger", "whatsapp"],
+  store_id: "X007",
+  store:
+    "Maharani Peta Daily, MAHARANI PETA- DAILY KRISHNA NAGAR,VISAKHAPATNAM",
+  last_interacted: 0,
+  building: "1, road vizag  ",
+  recent_orders: [],
+  open_cart: [],
+};
 ```
 
 **5. `update(data, primaryKey)`** : `Updates the details of the user`
 
-```
+```javascript
 let dataToUpdate = {
-  "name": "Nithilesh",
-  "pincode": "625012"
-}
+  name: "Nithilesh",
+  pincode: "625012",
+};
 
 let updateUser = await app.User.update(dataToUpdate, `9487813680`);
 
 updateUser = {
-  "name": "Nithilesh",
-  "pincode": "625012",
-  "_id": "5123dsadqweca234234"
-}
+  name: "Nithilesh",
+  pincode: "625012",
+  _id: "5123dsadqweca234234",
+};
 ```

@@ -12,7 +12,7 @@ The trigger word for the models will be written in the globals. It will be somet
 
 ## Trigger Words For Models
 
-```
+```javascript
 app.product == Product Model
 app.User == User Model
 app.LoggedInUser == Loggedin User Model
@@ -34,14 +34,14 @@ app.coupon == Coupon Model
 
 **Scenario** : Consider a scenerio in which you want the details of the user and you have the mobile number of the user in hand
 
-```
+```javascript
 let mobile = "9487XXXX80";
 let userDetails = await app.User.get(mobile);
 ```
 
 **Output** : The complete object of the user as below
 
-```
+```javascript
 {
   "user_id": "12345",
   "name": "Nitin",

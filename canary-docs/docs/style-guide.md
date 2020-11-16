@@ -1,8 +1,7 @@
 ---
-id: doc1
-title: Style Guide - Available Syntax
+id: styleguide
+title: Markdown and Docosouraus Syntax
 sidebar_label: Syntax
-slug: /
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

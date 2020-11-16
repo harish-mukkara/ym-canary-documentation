@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Canary',
-  tagline: "A Hub Of E-Commerce Bots",
+  tagline: "Experience an awesome shopping experience",
   url: 'https://NitinNithilesh.github.io/',
   baseUrl: '/ym-canary-documentation/',
   onBrokenLinks: 'throw',
