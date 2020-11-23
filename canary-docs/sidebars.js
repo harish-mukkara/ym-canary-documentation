@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Canary: ["canary"],
+    Canary: ["canary", "new"],
     Models: [
       "app.models",
       "User Model"
