@@ -3,7 +3,7 @@ module.exports = {
     Canary: ["canary", "new"],
     Models: [
       "app.models",
-      "User Model"
+      "User Model (new)"
     ],
     "Memory Manager": ["app.memory"],
     "Global Functions": [
