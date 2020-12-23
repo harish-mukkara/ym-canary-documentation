@@ -1,11 +1,11 @@
 module.exports = {
   title: 'Canary',
   tagline: "Experience an awesome shopping experience",
-  url: 'https://NitinNithilesh.github.io/',
+  url: 'https://harish-mukkara.github.io/',
   baseUrl: '/ym-canary-documentation/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'NitinNithilesh', // Usually your GitHub org/user name.
+  organizationName: 'harish-mukkara', // Usually your GitHub org/user name.
   projectName: 'ym-canary-documentation', // Usually your repo name.
   themeConfig: {
     navbar: {
