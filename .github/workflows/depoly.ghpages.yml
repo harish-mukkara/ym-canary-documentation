@@ -1,11 +1,12 @@
 name: Deployment
-on:
+on:  
   push:
-    branches:
-      - master
+    branches: [ test-gh-pages ]
+  pull_request:
+    branches: [ test-gh-pages ]
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     strategy:
       matrix:
         node-version: [12.x]
