@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{69:function(a){a.exports=JSON.parse('{"allTagsPath":"/ym-canary-documentation/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/ym-canary-documentation/blog/tags/facebook"}')}}]);
