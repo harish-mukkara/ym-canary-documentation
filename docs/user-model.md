@@ -1,6 +1,6 @@
 ---
 id: User Model
-title: User Model
+title: User Model (new)
 sidebar_label: User Model
 ---
 
