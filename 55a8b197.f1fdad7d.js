@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{66:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/ym-canary-documentation/blog/welcome"},{"title":"Hello","permalink":"/ym-canary-documentation/blog/hello-world"},{"title":"Hola","permalink":"/ym-canary-documentation/blog/hola"}]}')}}]);
