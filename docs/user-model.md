@@ -1,6 +1,6 @@
 ---
 id: User Model
-title: User Model (new)
+title: User Model (new) (b2b) (verygood)
 sidebar_label: User Model
 ---
 
