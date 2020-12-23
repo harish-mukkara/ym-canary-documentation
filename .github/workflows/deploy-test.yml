@@ -1,8 +1,5 @@
 name: Deployment
-on:
-  push:
-    branches:
-      - test-gh-pages
+on: push
 jobs:
   deploy:
     runs-on: ubuntu-18.04
